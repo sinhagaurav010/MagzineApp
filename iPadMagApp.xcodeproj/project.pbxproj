@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D115D6D149E5A7100C786FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D115D6C149E5A7100C786FD /* UIKit.framework */; };
+		5D115D6F149E5A7100C786FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D115D6E149E5A7100C786FD /* Foundation.framework */; };
+		5D115D71149E5A7100C786FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D115D70149E5A7100C786FD /* CoreGraphics.framework */; };
+		5D115D77149E5A7100C786FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D115D75149E5A7100C786FD /* InfoPlist.strings */; };
+		5D115D79149E5A7100C786FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D115D78149E5A7100C786FD /* main.m */; };
+		5D115D7D149E5A7100C786FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D115D7C149E5A7100C786FD /* AppDelegate.m */; };
+		5D115D86149E5A9800C786FD /* MagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D115D84149E5A9800C786FD /* MagViewController.m */; };
+		5D115D87149E5A9800C786FD /* MagViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D115D85149E5A9800C786FD /* MagViewController.xib */; };
+		5D115D8A149E5DDF00C786FD /* testJacob-3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5D115D89149E5DDF00C786FD /* testJacob-3.pdf */; };
+		5D115D90149E604B00C786FD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D115D8F149E604B00C786FD /* QuartzCore.framework */; };
+		5D55DBB1149FCE9C0028611C /* TiledPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D55DBAE149FCE9C0028611C /* TiledPDFView.m */; };
+		5D55DBB2149FCE9C0028611C /* PDFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D55DBB0149FCE9C0028611C /* PDFScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D115D68149E5A7100C786FD /* iPadMagApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPadMagApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D115D6C149E5A7100C786FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5D115D6E149E5A7100C786FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5D115D70149E5A7100C786FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5D115D74149E5A7100C786FD /* iPadMagApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPadMagApp-Info.plist"; sourceTree = "<group>"; };
+		5D115D76149E5A7100C786FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D115D78149E5A7100C786FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D115D7A149E5A7100C786FD /* iPadMagApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPadMagApp-Prefix.pch"; sourceTree = "<group>"; };
+		5D115D7B149E5A7100C786FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D115D7C149E5A7100C786FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D115D83149E5A9800C786FD /* MagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagViewController.h; sourceTree = "<group>"; };
+		5D115D84149E5A9800C786FD /* MagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagViewController.m; sourceTree = "<group>"; };
+		5D115D85149E5A9800C786FD /* MagViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MagViewController.xib; sourceTree = "<group>"; };
+		5D115D89149E5DDF00C786FD /* testJacob-3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "testJacob-3.pdf"; sourceTree = "<group>"; };
+		5D115D8F149E604B00C786FD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5D55DBAD149FCE9C0028611C /* TiledPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledPDFView.h; sourceTree = "<group>"; };
+		5D55DBAE149FCE9C0028611C /* TiledPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledPDFView.m; sourceTree = "<group>"; };
+		5D55DBAF149FCE9C0028611C /* PDFScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFScrollView.h; sourceTree = "<group>"; };
+		5D55DBB0149FCE9C0028611C /* PDFScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D115D65149E5A7100C786FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D115D90149E604B00C786FD /* QuartzCore.framework in Frameworks */,
+				5D115D6D149E5A7100C786FD /* UIKit.framework in Frameworks */,
+				5D115D6F149E5A7100C786FD /* Foundation.framework in Frameworks */,
+				5D115D71149E5A7100C786FD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D115D5D149E5A7100C786FD = {
+			isa = PBXGroup;
+			children = (
+				5D115D8F149E604B00C786FD /* QuartzCore.framework */,
+				5D115D89149E5DDF00C786FD /* testJacob-3.pdf */,
+				5D55DBAD149FCE9C0028611C /* TiledPDFView.h */,
+				5D55DBAE149FCE9C0028611C /* TiledPDFView.m */,
+				5D55DBAF149FCE9C0028611C /* PDFScrollView.h */,
+				5D55DBB0149FCE9C0028611C /* PDFScrollView.m */,
+				5D115D72149E5A7100C786FD /* iPadMagApp */,
+				5D115D6B149E5A7100C786FD /* Frameworks */,
+				5D115D69149E5A7100C786FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D115D69149E5A7100C786FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D115D68149E5A7100C786FD /* iPadMagApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D115D6B149E5A7100C786FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D115D6C149E5A7100C786FD /* UIKit.framework */,
+				5D115D6E149E5A7100C786FD /* Foundation.framework */,
+				5D115D70149E5A7100C786FD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D115D72149E5A7100C786FD /* iPadMagApp */ = {
+			isa = PBXGroup;
+			children = (
+				5D115D7B149E5A7100C786FD /* AppDelegate.h */,
+				5D115D7C149E5A7100C786FD /* AppDelegate.m */,
+				5D115D88149E5AB800C786FD /* MagViewController */,
+				5D115D73149E5A7100C786FD /* Supporting Files */,
+			);
+			path = iPadMagApp;
+			sourceTree = "<group>";
+		};
+		5D115D73149E5A7100C786FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D115D74149E5A7100C786FD /* iPadMagApp-Info.plist */,
+				5D115D75149E5A7100C786FD /* InfoPlist.strings */,
+				5D115D78149E5A7100C786FD /* main.m */,
+				5D115D7A149E5A7100C786FD /* iPadMagApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D115D88149E5AB800C786FD /* MagViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5D115D83149E5A9800C786FD /* MagViewController.h */,
+				5D115D84149E5A9800C786FD /* MagViewController.m */,
+				5D115D85149E5A9800C786FD /* MagViewController.xib */,
+			);
+			name = MagViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D115D67149E5A7100C786FD /* iPadMagApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D115D80149E5A7100C786FD /* Build configuration list for PBXNativeTarget "iPadMagApp" */;
+			buildPhases = (
+				5D115D64149E5A7100C786FD /* Sources */,
+				5D115D65149E5A7100C786FD /* Frameworks */,
+				5D115D66149E5A7100C786FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPadMagApp;
+			productName = iPadMagApp;
+			productReference = 5D115D68149E5A7100C786FD /* iPadMagApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D115D5F149E5A7100C786FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = dhillon;
+			};
+			buildConfigurationList = 5D115D62149E5A7100C786FD /* Build configuration list for PBXProject "iPadMagApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D115D5D149E5A7100C786FD;
+			productRefGroup = 5D115D69149E5A7100C786FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D115D67149E5A7100C786FD /* iPadMagApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D115D66149E5A7100C786FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D115D77149E5A7100C786FD /* InfoPlist.strings in Resources */,
+				5D115D87149E5A9800C786FD /* MagViewController.xib in Resources */,
+				5D115D8A149E5DDF00C786FD /* testJacob-3.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D115D64149E5A7100C786FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D115D79149E5A7100C786FD /* main.m in Sources */,
+				5D115D7D149E5A7100C786FD /* AppDelegate.m in Sources */,
+				5D115D86149E5A9800C786FD /* MagViewController.m in Sources */,
+				5D55DBB1149FCE9C0028611C /* TiledPDFView.m in Sources */,
+				5D55DBB2149FCE9C0028611C /* PDFScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D115D75149E5A7100C786FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D115D76149E5A7100C786FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D115D7E149E5A7100C786FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5D115D7F149E5A7100C786FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D115D81149E5A7100C786FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPadMagApp/iPadMagApp-Prefix.pch";
+				INFOPLIST_FILE = "iPadMagApp/iPadMagApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5D115D82149E5A7100C786FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPadMagApp/iPadMagApp-Prefix.pch";
+				INFOPLIST_FILE = "iPadMagApp/iPadMagApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D115D62149E5A7100C786FD /* Build configuration list for PBXProject "iPadMagApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D115D7E149E5A7100C786FD /* Debug */,
+				5D115D7F149E5A7100C786FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D115D80149E5A7100C786FD /* Build configuration list for PBXNativeTarget "iPadMagApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D115D81149E5A7100C786FD /* Debug */,
+				5D115D82149E5A7100C786FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D115D5F149E5A7100C786FD /* Project object */;
+}
