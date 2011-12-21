@@ -14,6 +14,12 @@
 {
     IBOutlet UIScrollView *scrllViewMag;
     UIView *myContentView;
+    CGFloat pdfScale;
+    
+    NSMutableArray *arrayPDFName;
+	
+	CGPDFPageRef page;
+	CGPDFDocumentRef pdf;
 }
 
 -(UIImage *)thumbNailImageFromPdfWithName:(NSString *)stringName;
